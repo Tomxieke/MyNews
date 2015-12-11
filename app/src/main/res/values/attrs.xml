@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NewsTitleView">
+        <attr name="leftText" format="string"/>
+        <attr name="leftIcon" format="reference"/>
+        <attr name="centerContent" format="string"/>
+        <attr name="rightText" format="string"/>
+        <attr name="rightIcon" format="reference"/>
+    </declare-styleable>
+</resources>

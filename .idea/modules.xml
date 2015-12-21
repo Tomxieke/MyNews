@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/horizontalScrollMenu_library/horizontalScrollMenu_library.iml" filepath="$PROJECT_DIR$/horizontalScrollMenu_library/horizontalScrollMenu_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/httpclient-4.4.1.1/httpclient-4.4.1.1.iml" filepath="$PROJECT_DIR$/httpclient-4.4.1.1/httpclient-4.4.1.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/imageSlider_viktor_library/imageSlider_viktor_library.iml" filepath="$PROJECT_DIR$/imageSlider_viktor_library/imageSlider_viktor_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingmenu_library/slidingmenu_library.iml" filepath="$PROJECT_DIR$/slidingmenu_library/slidingmenu_library.iml" />
     </modules>
   </component>
 </project>

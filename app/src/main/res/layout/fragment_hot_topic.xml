@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.scxh.mynews.content_fragment.news_type_fragment.hot_topic_news.HotTopicFragment">
+    tools:context=".content_fragment.news_type_fragment.hot_topic_news.SportsFrament">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

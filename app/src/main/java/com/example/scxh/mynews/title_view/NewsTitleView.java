@@ -1,4 +1,4 @@
-package com.example.scxh.mynews.content_fragment.title_view;
+package com.example.scxh.mynews.title_view;
 
 import android.content.Context;
 import android.content.res.TypedArray;

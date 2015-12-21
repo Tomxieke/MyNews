@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="10dp">
+    
+    <TextView
+        android:id="@+id/xlistview2_item_title_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="习近平将出席世界互联网大会"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_below="@id/xlistview2_item_title_txt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/img_one"
+            android:layout_marginRight="3dp"
+            style="@style/three_prcture" />
+        <ImageView
+            android:id="@+id/img_two"
+            android:layout_marginRight="3dp"
+            style="@style/three_prcture" />
+        <ImageView
+            android:id="@+id/img_three"
+            style="@style/three_prcture" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

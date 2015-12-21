@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/video_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_red_light"
+        android:gravity="center"
+        android:text="视频新闻"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:id="@+id/vidao_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/video_text"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/vidao_hot_btn"
+            android:text="热点"
+            style="@style/picture_top_tab_style" />
+
+        <RadioButton
+            android:id="@+id/vidao_entertainment_btn"
+            style="@style/picture_top_tab_style"
+            android:text="娱乐"/>
+
+        <RadioButton
+            android:id="@+id/vidao_fun_btn"
+            style="@style/picture_top_tab_style"
+            android:text="搞笑"/>
+
+        <RadioButton
+            android:id="@+id/vidao_boutique_btn"
+            style="@style/picture_top_tab_style"
+            android:text="精品"/>
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vidao_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vidao_radioGroup"/>
+</RelativeLayout>

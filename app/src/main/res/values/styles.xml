@@ -16,4 +16,23 @@
         <item name="android:textColor">@drawable/tab_text_selector</item>
     </style>
 
+    <style name="three_prcture">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@mipmap/base_common_default_icon_xsmall</item>
+    </style>
+
+    <style name="picture_top_tab_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/prc_top_tab_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@drawable/pic_top_tab_txt_selector</item>
+    </style>
+
 </resources>

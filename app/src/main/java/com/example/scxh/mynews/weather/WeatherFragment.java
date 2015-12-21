@@ -1,4 +1,4 @@
-package com.example.scxh.mynews.content_fragment.news_type_fragment.hot_topic_news;
+package com.example.scxh.mynews.weather;
 
 
 import android.os.Bundle;
@@ -12,14 +12,14 @@ import com.example.scxh.mynews.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class HotTopicFragment extends Fragment {
+public class WeatherFragment extends Fragment {
 
 
-    public static HotTopicFragment newInstance() {
+    public static WeatherFragment newInstance() {
         
         Bundle args = new Bundle();
         
-        HotTopicFragment fragment = new HotTopicFragment();
+        WeatherFragment fragment = new WeatherFragment();
         fragment.setArguments(args);
         return fragment;
     }
@@ -29,7 +29,7 @@ public class HotTopicFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_hot_topic, container, false);
+        return inflater.inflate(R.layout.fragment_weather, container, false);
     }
 
 }

@@ -7,4 +7,11 @@
         <attr name="rightText" format="string"/>
         <attr name="rightIcon" format="reference"/>
     </declare-styleable>
+
+    <declare-styleable name="NavigationView">
+        <attr name="nv_back_img" format="reference"/>
+        <attr name="nv_more_img" format="reference"/>
+        <attr name="nv_comment_text" format="string"/>
+        <attr name="bgcolor" format="color"/>
+    </declare-styleable>
 </resources>
